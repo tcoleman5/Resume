@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laura Jones</title>
+    <style>
+        h1{
+            text-align:center;
+        }
+        body{ background-color: lightpink;
+            font-family:"Times New Roman";font-size: 14pt;
+        }
+        h2{font-size: 16pt;color:darkslateblue;
+        }
+        p{text-align: center
+        }
+    </style>
+    <div style="text-align:center">
+        <a href="#Objective">Objective</a>-
+        <a href="#Education">Education</a>-
+        <a href="#Experience">Experience</a>-
+        <a href="#Skills">Skills</a>
+    </div>
+
+</head>
+<body>
+<h1>Laura Jones</h1>
+<p >Brooklyn, NY - ljones@brooklyn.nyc</p>
+<h2 id="Objective"><u>Objective</u></h2>
+<ul>
+    <li>I am a driven professional eager to take on new challenges that push me to develop as a leader and a learner.
+        I want to bring my strong sense of dedication, motivation, and responsibility to a company, and to utilize my technical
+        and business related skills and qualifications obtained through my work experiences.</li>
+</ul>
+<h2 id="Education"><u>Education</u></h2>
+<ul>
+    <li><b>Howard University</b>-<i>Bachelors of Science in Computer Science</i>,&nbsp;&nbsp;&nbsp; August 2005-May-2009</li>
+    <li><b>Howard University</b>-<i>Masters in Computer Science</i>,&nbsp;&nbsp;&nbsp; August 2009, May 2012</li>
+
+</ul>
+<h2 id="Experience"><u>Experience</u></h2>
+<ul>
+        <li><i>Network Engineer</i>,&nbsp;&nbsp;&nbsp;<b>Amazon</b>&nbsp;</li> January 2014- <i>Present</i>
+
+        <ul>
+            <li>Collaborated with the Facilities Maintenance Department to manage, review and cleanse over 50,000 paper
+        filing records of Security Keys into a readable and user-friendly Microsoft SharePoint database.</li>
+            <li>Partnered with the Transit Operations and the Information Technology Department to create and maintain a
+        Security Keys Microsoft SharePoint database.</li>
+            <li>Implemented a company wide SharePoint database system.</li>
+        </ul>
+
+    <br>
+        <li><i>SalesForce Engineer</i>,&nbsp;&nbsp;&nbsp;<b>Walmart</b></li> June 2013- September 2013
+        <ul>
+            <li>Analyzed the traits of consumers to input over 10,000 job positions and data entries into Invenias
+        and Excel.</li>
+            <li>Developed a list of senior executives to recruit for Management level positions.</li>
+        </ul>
+</ul>
+    <h2 id="Skills"><u>Skills</u></h2>
+    <ul>
+        <li>Microsoft Office</li>
+        <li>Database Management</li>
+        <li>Expert Level HTML/C++ Experience</li>
+        <li>Expert Level Java Experience</li>
+    </ul>
+</body>
+</html>
