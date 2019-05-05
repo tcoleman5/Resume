@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <script src="final.js" type="text/javascript"/>  -->
+    <style>
+        h1   {color: #E67E22; font-size: 30pt;}
+        body {
+            background: #FDF2E9;
+            font-family: 'Arial', sans-serif;
+            letter-spacing: 2px;
+            padding-bottom: 60px;}
+    </style>
+    <script>
+
+    function getGrade(letterGrade) {
+        if (letterGrade == "A") {
+            return 4;
+        } else if (letterGrade == "B") {
+            return 3;
+        } else if (letterGrade == "C") {
+            return 2;
+        } else if (letterGrade == "D") {
+            return 1;
+         }else {
+        return 0;
+                 }
+
+                                   }
+    function calc(){
+        var ocount =0, ogpa =0
+        var bcount =0, bgpa =0
+        var mcount =0, mgpa =0
+
+        var gen01 = document.getElementById("gen01").value;
+        var gen02 = document.getElementById("gen02").value;
+        var gen03 = document.getElementById("gen03").value;
+        var gen04 = document.getElementById("gen04").value;
+        var gen05 = document.getElementById("gen05").value;
+        var gen06 = document.getElementById("gen06").value;
+        var gen07 = document.getElementById("gen07").value;
+        var gen08 = document.getElementById("gen08").value;
+        var gen09 = document.getElementById("gen09").value;
+        var gen10 = document.getElementById("gen10").value;
+        var bus01 = document.getElementById("bus01").value;
+        var bus02 = document.getElementById("bus02").value;
+        var bus03 = document.getElementById("bus03").value;
+        var bus04 = document.getElementById("bus04").value;
+        var bus05 = document.getElementById("bus05").value;
+        var bus06 = document.getElementById("bus06").value;
+        var bus07 = document.getElementById("bus07").value;
+        var bus08 = document.getElementById("bus08").value;
+        var bus09 = document.getElementById("bus09").value;
+        var bus10 = document.getElementById("bus10").value;
+        var bus11 = document.getElementById("bus11").value;
+        var bus12 = document.getElementById("bus12").value;
+        var bus13 = document.getElementById("bus13").value;
+        var bus14 = document.getElementById("bus14").value;
+        var bus15 = document.getElementById("bus15").value;
+        var bus16 = document.getElementById("bus16").value;
+        var bus17 = document.getElementById("bus17").value;
+        var bus18 = document.getElementById("bus18").value;
+        var bus19 = document.getElementById("bus19").value;
+        var bus20 = document.getElementById("bus20").value;
+        var bus21 = document.getElementById("bus21").value;
+        var maj01 = document.getElementById("maj01").value;
+        var maj02 = document.getElementById("maj02").value;
+        var maj03 = document.getElementById("maj03").value;
+        var maj04 = document.getElementById("maj04").value;
+        var maj05 = document.getElementById("maj05").value;
+        var maj06 = document.getElementById("maj06").value;
+        var maj07 = document.getElementById("maj07").value;
+        var maj08 = document.getElementById("maj08").value;
+        var maj09 = document.getElementById("maj09").value;
+        var maj10 = document.getElementById("maj10").value;
+        var maj11 = document.getElementById("maj11").value;
+
+            if (gen01 != "-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen01)
+            }
+            if (gen02 != "-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen02)
+            }
+            if (gen03 != "-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen03)
+            }
+            if (gen04 != "-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen04)
+            }
+            if (gen05 != "-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen05)
+            }
+            if (gen06 != "-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen06)
+            }
+            if (gen07 != "-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen07)
+            }
+            if (gen08 != "-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen08)
+            }
+            if (gen09 != "-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen09)
+            }
+            if (gen10 != "-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen10)
+            }
+                if (bus01 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus01);
+                    bgpa = bgpa + getGrade(bus01)
+                }
+                if (bus02 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus02);
+                    bgpa = bgpa + getGrade(bus02)
+                }
+                if (bus03 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus03);
+                    bgpa = bgpa + getGrade(bus03)
+                }
+                if (bus04 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus04);
+                    bgpa = bgpa + getGrade(bus04)
+                }
+                if (bus05 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus05);
+                    bgpa = bgpa + getGrade(bus05)
+                }
+                if (bus06 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus06);
+                    bgpa = bgpa + getGrade(bus06)
+                }
+                if (bus07 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus07);
+                    bgpa = bgpa + getGrade(bus07)
+                }
+                if (bus08 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus08);
+                    bgpa = bgpa + getGrade(bus08)
+                }
+                if (bus09 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus09);
+                    bgpa = bgpa + getGrade(bus09)
+                }
+                if (bus10 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus10);
+                    bgpa = bgpa + getGrade(bus10)
+                }
+                if (bus11 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus11);
+                    bgpa = bgpa + getGrade(bus11)
+                }
+                if (bus12 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus12);
+                    bgpa = bgpa + getGrade(bus12)
+                }
+                if (bus13 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus13);
+                    bgpa = bgpa + getGrade(bus13)
+                }
+                if (bus14 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus14);
+                    bgpa = bgpa + getGrade(bus14)
+                }
+                if (bus15 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus15);
+                    bgpa = bgpa + getGrade(bus15)
+                }
+                if (bus16 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus16);
+                    bgpa = bgpa + getGrade(bus16)
+                }
+                if (bus17 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus17);
+                    bgpa = bgpa + getGrade(bus17)
+                }
+                if (bus18 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus18);
+                    bgpa = bgpa + getGrade(bus18)
+                }
+                if (bus19 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus19);
+                    bgpa = bgpa + getGrade(bus19)
+                }
+                if (bus20 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus20);
+                    bgpa = bgpa + getGrade(bus20)
+                }
+                if (bus21 != "-") {
+                    ocount = ocount + 1;
+                    bcount = bcount +1;
+                    ogpa = ogpa + getGrade(bus21);
+                    bgpa = bgpa + getGrade(bus21)
+                }
+                    if (maj01 != "-") {
+                        ocount = ocount + 1;
+                        bcount = bcount +1;
+                        mcount = mcount +1;
+                        ogpa = ogpa + getGrade(maj01);
+                        bgpa = bgpa + getGrade(maj01);
+                        mgpa = mgpa + getGrade(maj01)
+                    }
+                    if (maj02 != "-") {
+                        ocount = ocount + 1;
+                        bcount = bcount +1;
+                        mcount = mcount +1;
+                        ogpa = ogpa + getGrade(maj02);
+                        bgpa = bgpa + getGrade(maj02);
+                        mgpa = mgpa + getGrade(maj02)
+                    }
+                    if (maj03 != "-") {
+                        ocount = ocount + 1;
+                        bcount = bcount +1;
+                        mcount = mcount +1;
+                        ogpa = ogpa + getGrade(maj03);
+                        bgpa = bgpa + getGrade(maj03);
+                        mgpa = mgpa + getGrade(maj03)
+                    }
+                    if (maj04 != "-") {
+                        ocount = ocount + 1;
+                        bcount = bcount +1;
+                        mcount = mcount +1;
+                        ogpa = ogpa + getGrade(maj04);
+                        bgpa = bgpa + getGrade(maj04);
+                        mgpa = mgpa + getGrade(maj04)
+                    }
+                    if (maj05 != "-") {
+                        ocount = ocount + 1;
+                        bcount = bcount +1;
+                        mcount = mcount +1;
+                        ogpa = ogpa + getGrade(maj05);
+                        bgpa = bgpa + getGrade(maj05);
+                        mgpa = mgpa + getGrade(maj05)
+                    }
+                    if (maj06 != "-") {
+                        ocount = ocount + 1;
+                        bcount = bcount +1;
+                        mcount = mcount +1;
+                        ogpa = ogpa + getGrade(maj06);
+                        bgpa = bgpa + getGrade(maj06);
+                        mgpa = mgpa + getGrade(maj06)
+                    }
+                    if (maj07 != "-") {
+                        ocount = ocount + 1;
+                        bcount = bcount +1;
+                        mcount = mcount +1;
+                        ogpa = ogpa + getGrade(maj07);
+                        bgpa = bgpa + getGrade(maj07);
+                        mgpa = mgpa + getGrade(maj07)
+                    }
+                    if (maj08 != "-") {
+                        ocount = ocount + 1;
+                        bcount = bcount +1;
+                        mcount = mcount +1;
+                        ogpa = ogpa + getGrade(maj08);
+                        bgpa = bgpa + getGrade(maj08);
+                        mgpa = mgpa + getGrade(maj08)
+                    }
+                    if (maj09 != "-") {
+                        ocount = ocount + 1;
+                        bcount = bcount +1;
+                        mcount = mcount +1;
+                        ogpa = ogpa + getGrade(maj09);
+                        bgpa = bgpa + getGrade(maj09);
+                        mgpa = mgpa + getGrade(maj09)
+                    }
+                    if (maj10 != "-") {
+                        ocount = ocount + 1;
+                        bcount = bcount +1;
+                        mcount = mcount +1;
+                        ogpa = ogpa + getGrade(maj10);
+                        bgpa = bgpa + getGrade(maj10);
+                        mgpa = mgpa + getGrade(maj10)
+                    }
+                    if (maj11 != "-") {
+                        ocount = ocount + 1;
+                        bcount = bcount +1;
+                        mcount = mcount +1;
+                        ogpa = ogpa + getGrade(maj11);
+                        bgpa = bgpa + getGrade(maj11);
+                        mgpa = mgpa + getGrade(maj11)
+                        }
+
+        document.getElementById("ogpa").innerText = ogpa / ocount;
+        document.getElementById("bgpa").innerText = bgpa / bcount;
+        document.getElementById("mgpa").innerText = mgpa / mcount;
+    }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+            <a class="navbar-brand" href="#">Grade Calculator</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+        <h1>Major Scheme</h1>
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Course</th>
+                <th scope="col">Cr.</th>
+                <th scope="col">Grade</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2uafroamerican_a.htm"> Intro to Afro American Studies I</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="gen01">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2ueconomics.htm"> Principles of Economics I</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                    <select class="form-control" id="bus01">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_accountingC.htm"> Accounting Principles I</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                    <select class="form-control" id="bus02">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2uhistory_a.htm"> Intro to Black Diaspora</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                    <select class="form-control" id="gen02">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2umath_b.htm"> College Algebra I</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                    <select class="form-control" id="gen03">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2umodlang_spanish_a.htm"> Spanish I</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                    <select class="form-control" id="gen04">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2ueconomics.htm"> Principles of Economics II</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus03">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2umath_b.htm"> Statistics-Bus & Econ</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus04">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2umath_b.htm"> College Algebra II</a></td>
+                <td>4.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="gen05">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2uphilosophy_a.htm"> Intro to Philosophy</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="gen06">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            <tr>
+                <th scope="row">11</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2umodlang_spanish_a.htm"> Spanish II</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="gen07">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">12</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_marketingC_a.htm"> Business Communications</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus05">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">13</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2uphysicaleducationnRec_b.htm"> Fitness I</a></td>
+                <td>1.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="gen08">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">14</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_infosysC_a.htm"> Business Problem Solving</a></td>
+                <td>2.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="maj01">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">15</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_infosysC_a.htm"> Management Information Systems</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="maj02">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">16</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2umath_b.htm"> Applied Calculus</a></td>
+                <td>4.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus06">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">17</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm"> Business Orientation I</a></td>
+                <td>1.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus07">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">18</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2uenglish_a.htm"> English I</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus08">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">19</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_accountingC.htm"> Accounting Principles II</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus09">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">20</th>
+                <<td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2ubiology_a.htm"> General Biology</a></td>
+                <td>4.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="gen09">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">21</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2uphysicaleducationnRec_d.htm"> Health Science</a></td>
+                <td>1.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="gen10">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">22</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_infosysC_a.htm"> Intro to Software Design</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="maj03">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">23</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_infosysC_a.htm"> Web Authoring Tools</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="maj04">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">24</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm"> Business Orientation II</a></td>
+                <td>1.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus10">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">25</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2uenglish_a.htm"> English II</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus11">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">26</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_infosysC_b.htm"> Quantitative Business Analysis </a></td>
+
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus12">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">27</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_financeC.htm"> Finance Principles</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus13">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">28</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_infosysC_b.htm"> Database Management</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="maj05">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">29</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm"> Career Counseling in Business</a></td>
+                <td>1.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus14">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">30</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_marketingC_a.htm"> Principles of Marketing</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus15">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">31</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm"> Management & Org Behavior</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus16">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">32</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2upsychology.htm"> Psychology</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus17">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">33</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_infosysC_b.htm"> Production & Operations Mgmt</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="maj06">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">34</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_infosysC_b.htm"> Intro to Data & Network Comm</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="maj07">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">35</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_law.htm"> Business Law I</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus18">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">36</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_infosysC_b.htm"> Systems Analysis & Design</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="maj08">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">37</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_infosysC_a.htm"> Intro to eBusiness & Commerce</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="maj09">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">38</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_infosysC_a.htm"> Intro to Java Programming</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="maj10">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">39</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_infosysC_a.htm"> Intro to Info Security</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="maj11">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">40</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2ueconomics.htm"> Managerial Economics</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus19">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">41</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_infosysC_a.htm"> Information Systems Consulting</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="maj12">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">42</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_managmentC.htm"> Entrepreneurship</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus20">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">43</th>
+                <td><a href="http://www.provost.howard.edu/PROVOST/bulletin2/u/v2Business_managmentC.htm"> Business Policy</a></td>
+                <td>3.00</td>
+                <td>
+                    <div class="form-group col-md-6">
+
+                        <select class="form-control" id="bus21">
+                            <option>-</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <div class="row">
+            <button type="button" onclick="calc()"> Calculate</button>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    Overall GPA
+                </div>
+                <div class="col-sm">
+                    Business GPA
+                </div>
+                <div class="col-sm">
+                    Major GPA
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm" id="ogpa">
+                    0.0
+                </div>
+                <div class="col-sm" id="bgpa">
+                    0.0
+                </div>
+                <div class="col-sm" id="mgpa">
+                    0.0
+                </div>
+            </div>
+        </div>
+        <div/>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
